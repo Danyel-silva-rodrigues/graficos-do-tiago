@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>graficos</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
   <body>
@@ -29,10 +31,10 @@
       </nav>
     </header>
     <main>
-     
+     <!-- conteudo -->
 <article id="particles-js">
 </article>
-<article class="conteiner-conteudo">
+<article class="conteiner-conteudo" >
   <section class="text">
        <h1 class="titulo">Calculador de grafico </h1>
        <p class="sub-titulo">Site desenvolvido com o intuito de facilita o desenvolvimento de gráfico para as matérias básicas do 
@@ -42,16 +44,121 @@
 </article>
 
 <!-- --------------------------------------------------------->
-<article class="conteiner-recusos">
+<article class="conteiner-recusos" data-aos="fade-up">
   <section class="text">
-       <h1 class="titulo"> Aqui estão alguns dos recursos incríveis que <br>vocês encontrarão aqui. </h1>
+       <h1 class="titulo"> Veja Alguns Recursos Disponíveis </h1>
        
   </section>
   
 </article> 
-<article class="">
 
+<!--  -->
+<article class="conteiner-box">
+ <section class="box-contener">
+  <div class="box" data-aos="fade-up-right"data-aos-duration="3000">
+    <img class="img-box" src="img/undraw_Charts_re_5qe9-removebg-preview.png" alt="">
+  
+    <p class="text-box">Calculadora de Gráficos Interativa: Visualizem funções matemáticas, dados estatísticos e experimentos científicos de forma dinâmica e intuitiva.</p>
+   </div>
+  
+   <div class="box" data-aos="fade-up-left" data-aos-duration="3000">
+    <img class="img-box" src="img/undraw_Growing_re_olpi-removebg-preview.png" alt="">
+    <p class="text-box">Ferramentas Personalizáveis: Personalizem seus gráficos com uma variedade de opções de estilo e configurações para melhor atender às suas necessidades de aprendizagem.</p>
+   </div>
+  
+   <div class="box" data-aos="fade-up-right" data-aos-duration="3000">
+    <img class="img-box" src="img/undraw_informed_decision_p2lh-removebg-preview.png" alt="">
+    <p class="text-box">Acesso a Tutoriais e Exemplos: Explore uma coleção de tutoriais e exemplos práticos para aprimorar suas habilidades de visualização de dados e compreensão de conceitos acadêmicos.</p>
+   </div>
+  
+   <div class="box" data-aos="fade-up-left" data-aos-duration="3000">
+    <img class="img-box" src="img/undraw_Online_learning_re_qw08-removebg-preview.png" alt="">
+    <p class="text-box">Compatível com Múltiplas Disciplinas: 
+      Utilizem a calculadora de gráficos em diversas disciplinas, incluindo matemática, ciências, geografia, história e muito mais.</p>
+   </div>
+ </section>
 </article>
+<!-- card equipe -->
+<article class="team">
+ <section class="textteam">
+   <h1 class="titulo"  data-aos="flip-up">Conheça a Nossa Equipe de Desenvovedores </h1>
+</section>
+     <section class="conteiner-card" >
+      <div class="e-card playing">
+        <div class="image"></div>
+        
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        
+      
+            <div class="infotop">
+      <div class="name">name</div>
+        </div>
+      </div>
+      <!-- max -->
+      <div class="e-card playing">
+        <div class="image"></div>
+        
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        
+      
+            <div class="infotop">
+      <div class="name">name</div>
+        </div>
+      </div>
+      <!-- eve -->
+      <div class="e-card playing">
+        <div class="image"></div>
+        
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        
+      
+            <div class="infotop">
+      <div class="name">name</div>
+        </div>
+      </div>
+      <!-- dh -->
+      <div class="e-card playing">
+        <div class="image"></div>
+        
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        
+      
+            <div class="infotop">
+      <div class="name">name</div>
+        </div>
+      </div>
+      <!-- tg -->
+      <div class="e-card playing">
+        <div class="image">
+
+        </div>
+        
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        
+      
+            <div class="infotop">
+      <div class="name">name</div>
+        </div>
+      </div>
+      <!-- pi -->
+            
+     </section>
+</article>
+
+       
+  </section>
+  
+</article> 
 
 
       
@@ -61,6 +168,8 @@
     <script src="/script/script.js"></script>
     <script src="/script/particles.min.js"></script>
     <script>
+      AOS.init();
+
       particlesJS(
         {
   "particles": {
