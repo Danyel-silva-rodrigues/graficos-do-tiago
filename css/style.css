@@ -95,6 +95,11 @@
     width: 600px;
     height: 400px;
   }
+  .titulo-intro{
+    font-size: var(----size);
+    font-family: var(----fontTitulo);
+    color:black;
+  }
   .titulo{
     font-size: var(----size);
     font-family: var(----fontTitulo);
@@ -167,6 +172,7 @@
   background-color: #fff;
   width: 100vw;
   
+  
   }
   .textteam{
     background-color: var(---cor--tema);
@@ -184,6 +190,7 @@
     width: 80%;
     justify-content: space-evenly;
     padding: 30px;
+    flex-wrap: wrap;
   }  
   .image{
     width: 50px;
@@ -305,6 +312,7 @@
     .ultima{
       width: 100vw;
       background-color: var(---cor--tema);
+      padding-bottom: 20px;
     }
     .bt-ultima{
       align-items: center;
@@ -329,7 +337,7 @@
       white-space: nowrap;
       cursor: pointer;
       transition: all .3s;
-      margin: auto;
+      margin:auto;
      }
      
      .bt-ultima:active,
@@ -338,7 +346,7 @@
      }
      
      .bt-ultima span {
-      background-color: var(---cor--tema);
+      background-color: black;
       padding: 16px 24px;
       border-radius: 6px;
       width: 100%;
@@ -354,6 +362,42 @@
       transform: scale(0.9);
      }
 
+     footer{
+      background-color: #fff;
+      width: 100vw;
+      height: 150px;
+      padding-top: 20px;
+     }
+     .conteiner-linkfort{
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 70px;
+
+     }
+   .links-footer{
+    display: flex;
+   list-style: none;
+   }
+  .link-footer{
+    font-size: 20px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: var(-----fontText);
+  }
+  .logo-footer{
+    font-size: 24px;
+    font-family: var(----fontTitulo);
+  }
+  .footer-title{
+    font-size: 20px;
+    width: 400px;
+    margin: auto;
+    color: black;
+  }
   @media (max-width: 999px) {
     body {
   
